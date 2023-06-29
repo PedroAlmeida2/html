@@ -204,6 +204,49 @@
             <td>Célula 4</td>
         </tr>
     </table>
+
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+
+    <h1 style="color:red;font-family: Georgia, 'Times New Roman', Times, serif;font-size:20px;">Cadastro</h1>
+    <form>
+        nome:
+        <input type="text" name="login"><br><br>
+        senha:
+        <input type="password" name="senha"><br><br>
+        email:
+        <input type="email" name="email"><br><br>
+        masculino
+        <input type="radio" name="sexo" value="M">
+        feminino
+        <input type="radio" name="sexo" value="F"><br><br>
+        IXCOLHE: <br>
+        <input type="checkbox" name="interesses">PHP <br>
+        <input type="checkbox" name="interesses">JS<br>
+        <input type="checkbox" name="interesses">Python<br>
+        <input type="checkbox" name="interesses">VB<br><br>
+        Estado:
+        <select name="estado">
+            <option value="sp">SP</option>
+            <option value="rj">RJ</option>
+            <option value="go">GO</option>
+        </select><br><br>
+
+        <input style="position: absolute;width: 20%; margin-left: 45px" type="submit" value="Cadastrar">
+        
+    </form>
+
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+
+
+
 </body>
 
 </html>

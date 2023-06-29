@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página WEB</title>
+</head>
+
+<body>
+    <h1>HOME</h1>
+    <a href="contato.html">Contato</a>
+    <!--Cria um hyperlink-->
+    <br>
+    <br>
+    <hr>
+    <ol>
+        <li>Primeiro elemento</li>
+        <li>Segundo elemento</li>
+        <li>Terceiro elemento</li>
+        <!--Lista ordenada <ol>, cria uma lista de numeração-->
+    </ol>
+
+    <ul>
+        <li>Primeiro elemento</li>
+        <li>Segundo elemento</li>
+        <li>Terceiro elemento</li>
+        <!--Lista não ordenada <ul>, cria uma lista sem numeração-->
+    </ul>
+
+    <hr>
+
+    <table border="3">
+        <tr>
+            <th>Aluno</th>
+            <th>--Nota 1--</th>
+            <th>--Nota 2--</th>
+            <th>--Nota 3--</th>
+            <th>--Nota 4--</th>
+            <!--primeira tabela é <th> porque é como se fosse um "titulo (fica negrito)"-->
+        </tr>
+
+        <tr>
+            <td>Pedro</td>
+            <td>8,6</td>
+            <td>10</td>
+            <td>7,9</td>
+            <td>8,4</td>
+            <!--o restante da tabela é usado <td>, que é o conteudo geral da tabela-->
+        </tr>
+        <tr>
+            <td>Giovanna</td>
+            <td>9,8</td>
+            <td>8,9</td>
+            <td>9</td>
+            <td>7,8</td>
+        </tr>
+        <tr>
+            <td>Ferri</td>
+            <td>7,2</td>
+            <td>6,8</td>
+            <td>9</td>
+            <td>9,7</td>
+        </tr>
+        <tr>
+            <td>Felipe</td>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Renan</td>
+            <td>3,4</td>
+            <td>4</td>
+            <td>3,9</td>
+            <td>1,8</td>
+        </tr>
+        <tr>
+            <td>David</td>
+            <td>98</td>
+            <td>115</td>
+            <td>66</td>
+            <td>320</td>
+        </tr>
+        <!--Criar tabela-->
+    </table>
+    <br>
+    <hr>
+    <table border="3">
+        <caption>Produtos</caption>
+        <!--Título acima e fora da tabela-->
+
+        <thead>
+            <!--primeira linha da tabela onde é informado as colunas-->
+            <th>Cod</th>
+            <th>Nome</th>
+            <th>Preço</th>
+        </thead>
+
+        <tbody>
+            <!--conteudo da tabela-->
+            <tr>
+                <td>001</td>
+                <th>Galaxy S21</th>
+                <th>1900,00</TH>
+            </tr>
+            <tr>
+                <td>002</td>
+                <th>Galaxy A34</th>
+                <th>1500,00</th>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <hr>
+    <br>
+
+    <table border="3">
+        <tr>
+            <td>Célula 1</td>
+            <td>Célula 2</td>
+            <td>Célula 3</td>
+        </tr>
+        <tr>
+            <td>Célula 4</td>
+            <td>Célula 5</td>
+            <td>Célula 6</td>
+        </tr>
+    </table>
+
+    <br>
+    <hr>
+    <br>
+
+    <table border="3">
+        <caption>Vrum Vrum</caption>
+        <thead>
+            <tr>
+                <th>Marca:</th>
+                <th>Modelo:</th>
+                <th>Ano:</th>
+                <th>valor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Fiat</td>
+                <td>Uno</td>
+                <td>2009</td>
+                <td>R$15.500</td>
+            </tr>
+            <tr>
+                <td>Renault</td>
+                <td>KWID (LIXO)</td>
+                <td>2018</td>
+                <td>R$68.000</td>
+            </tr>
+            <tr>
+                <td>Hyundai</td>
+                <td>Veloster (3 portas?)</td>
+                <td>2019</td>
+                <td>R$80.500</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">O melhor preço da região</td>
+                <!--Colspan "mescla" as colunas de acordo com o número colocado nas aspas-->
+            </tr>
+        </tfoot>
+    </table>
+
+    <br>
+    <hr>
+    <br>
+
+    <table border="3">
+        <tr>
+            <td colspan="3"> celula 1</td>
+        </tr>
+        <tr>
+            <td>Célula 2</td>
+            <td>Célula 3</td>
+            <td>Célula 4</td>
+        </tr>
+    </table>
+
+    <br>
+    <hr>
+    <br>
+
+    <table border="3">
+        <tr>
+            <td rowspan="3">Célula 1</td>
+            <!--Colspan "mescla" as linhas de acordo com o número colocado nas aspas-->
+            <td>Célula 2</td>
+        </tr>
+        <tr>
+            <td>Célula 3</td>
+        </tr>
+        <tr>
+            <td>Célula 4</td>
+        </tr>
+    </table>
+</body>
+
+</html>
